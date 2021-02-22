@@ -72,6 +72,9 @@ void loop() {
     DigiKeyboard.delay(1000);
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(1000);
+    DigiKeyboard.print("exit)");
+    DigiKeyboard.delay(1000);
+    DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
     //DellInfo
     DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
