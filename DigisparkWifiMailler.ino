@@ -71,8 +71,8 @@ void loop() {
     DigiKeyboard.print("$Smtp.Send($Message)");
     DigiKeyboard.delay(1000);
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
-    DigiKeyboard.delay(1000);
-    DigiKeyboard.print("exit)");
+    DigiKeyboard.delay(2000);
+    DigiKeyboard.print("exit");
     DigiKeyboard.delay(1000);
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
